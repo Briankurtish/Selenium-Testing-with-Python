@@ -15,7 +15,10 @@ driver.get("https://www.emu.edu.tr/en")
 academics_element = driver.find_element(By.XPATH, "//*[@id='mgmenu1']/ul/li[3]/a")
 academics_element.click()
 
-card_element = driver.find_element()
+time.sleep(3)
+
+card_element = driver.find_element(By.XPATH, "//*[@id='contentskip']/div[4]/div/div/div[2]/a")
+card_element.click()
 
 
 
