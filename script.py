@@ -25,11 +25,11 @@ department_name_element =  driver.find_element(By.XPATH, "//*[@id='contentskip']
 department_name_element.click()
 time.sleep(2)
 
-fee_calculator_element = driver.find_element(By.XPATH, "//*[@id='sticky_nav']/li[4]/a")
-fee_calculator_element.click()
-
-
-
+curriculum_element = driver.find_element(By.XPATH, "//*[@id='sticky_nav']/li[2]/a")
+curriculum_element.click()
 time.sleep(5)  
+
+
+print("SUCCESS: Test Successful!!")
 # Quit the driver
 driver.quit()
